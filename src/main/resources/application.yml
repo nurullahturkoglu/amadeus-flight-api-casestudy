@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: oynayase_userapp
+    url: jdbc:mysql://95.173.180.25:3306/oynayase_userapp?useSSL=false&serverTimezone=UTC
+    password: 98~h~,5d{Y{0
+    hikari:
+      max-lifetime: 600000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true
+
