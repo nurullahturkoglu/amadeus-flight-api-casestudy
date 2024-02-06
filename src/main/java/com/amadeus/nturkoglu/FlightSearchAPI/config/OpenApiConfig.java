@@ -17,9 +17,9 @@ import io.swagger.v3.oas.annotations.servers.Server;
                         email = "nurullahtrkglu@gmail.com",
                         url = "https://www.linkedin.com/in/nurullahturkoglu/"
                 ),
-                title = "Book API",
+                title = "Amadeus Flight API",
                 version = "v1.0",
-                description = "Book API Documentation",
+                description = "Amadeus Flight API Documentation",
                 license = @License(
                         name = "Apache 2.0",
                         url = "http://www.apache.org/licenses/LICENSE-2.0.html"

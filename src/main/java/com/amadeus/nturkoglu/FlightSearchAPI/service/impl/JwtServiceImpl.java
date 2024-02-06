@@ -4,7 +4,6 @@ import com.amadeus.nturkoglu.FlightSearchAPI.config.security.SecurityConstant;
 import com.amadeus.nturkoglu.FlightSearchAPI.service.JwtService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.security.authentication.AuthenticationCredentialsNotFoundException;
 import org.springframework.security.core.Authentication;
