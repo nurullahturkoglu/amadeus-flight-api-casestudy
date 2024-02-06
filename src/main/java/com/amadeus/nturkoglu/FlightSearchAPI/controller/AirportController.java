@@ -4,7 +4,6 @@ import com.amadeus.nturkoglu.FlightSearchAPI.entity.Airport;
 import com.amadeus.nturkoglu.FlightSearchAPI.service.AirportService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
-import org.aspectj.lang.annotation.Before;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

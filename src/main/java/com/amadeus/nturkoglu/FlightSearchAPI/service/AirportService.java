@@ -4,7 +4,6 @@ import com.amadeus.nturkoglu.FlightSearchAPI.entity.Airport;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface AirportService {
     ResponseEntity<List<Airport>> getAllAirport();
